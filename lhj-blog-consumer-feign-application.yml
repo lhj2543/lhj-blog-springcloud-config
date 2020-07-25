@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev     #开发环境
   application: 
-    name: lhj-blog-consumer-feign
+    name: lhj-blog-consumer-feign2
 
 
 server:
