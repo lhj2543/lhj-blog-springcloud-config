@@ -21,6 +21,9 @@ eureka:
 feign:
   hystrix:
     enabled: true
+	
+springcloud:
+  configtest: hhh
 
 ---
 spring:
