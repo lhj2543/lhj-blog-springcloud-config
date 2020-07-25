@@ -6,11 +6,11 @@ spring:
 spring:
   profiles: dev     #开发环境
   application: 
-    name: microservicecloud-config-atguigu-dev
+    name: lhj-blog-consumer-feign
 
 
 server:
-  port: 803
+  port: 805
 
 eureka:
   client:
@@ -26,7 +26,7 @@ feign:
 spring:
   profiles: test   #测试环境
   application: 
-    name: microservicecloud-config-atguigu-test
+    name: lhj-blog-consumer-feign
 
 server:
   port: 804
