@@ -6,7 +6,7 @@ spring:
 spring:
   profiles: dev     #开发环境
   application: 
-    name: lhj-blog-consumer-feign2
+    name: lhj-blog-consumer-feign
 
 
 server:
@@ -21,6 +21,13 @@ eureka:
 feign:
   hystrix:
     enabled: true
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 ---
 spring:
